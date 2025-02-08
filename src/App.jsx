@@ -33,7 +33,7 @@ import AllOrders from "./components/AllOrders/AllOrders";
 
 let query = new QueryClient();
 
-let router = createBrowserRouter([
+let router = createHashRouter([
   {
     path: "",
     element: <Layout />,
